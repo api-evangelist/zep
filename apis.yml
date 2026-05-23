@@ -1,0 +1,139 @@
+aid: zep
+name: Zep
+description: >-
+  Zep is a context engineering and agent memory platform that assembles
+  relevant context from chat history, business data, and user interactions for
+  AI agents. It builds a temporal knowledge graph per user that evolves as new
+  facts arrive, automatically extracts entities, and invalidates facts that
+  are superseded. Zep exposes a Graph RAG layer with customizable context
+  blocks for fast personalization. The platform offers Cloud and self-hosted
+  community editions with Python, TypeScript, and Go SDKs and integrations
+  with LangChain, LangGraph, LlamaIndex, CrewAI, and AutoGen. Zep targets
+  sub-200ms p95 retrieval latency and is SOC 2 Type II and HIPAA aligned for
+  enterprise deployments.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Memory
+  - AI Agents
+  - Knowledge Graph
+  - Temporal Graph
+  - Graph RAG
+  - Context Engineering
+  - LangChain
+  - LlamaIndex
+  - CrewAI
+  - LLMs
+  - Personalization
+  - Retrieval
+url: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+apis:
+  - aid: zep:cloud-api
+    name: Zep Cloud API
+    description: >-
+      The Zep Cloud API delivers agent memory and temporal knowledge graph
+      services over REST. It exposes endpoints for users, sessions, messages,
+      memory retrieval, the per-user graph, facts, summaries, and customizable
+      context blocks for prompt assembly.
+    humanURL: https://help.getzep.com
+    baseURL: https://api.getzep.com/api/v2
+    tags:
+      - Memory
+      - Graph
+      - Sessions
+      - Users
+      - Facts
+      - Context
+      - REST
+    properties:
+      - type: Documentation
+        url: https://help.getzep.com
+      - type: GettingStarted
+        url: https://help.getzep.com/v2/quickstart
+      - type: SignUp
+        url: https://app.getzep.com
+      - type: SDK
+        url: https://github.com/getzep/zep-python
+      - type: SDK
+        url: https://github.com/getzep/zep-js
+      - type: SDK
+        url: https://github.com/getzep/zep-go
+      - type: GitHubRepository
+        url: https://github.com/getzep/zep
+      - type: Pricing
+        url: https://www.getzep.com/pricing
+      - type: Authentication
+        url: https://help.getzep.com/projects
+    features:
+      - name: Temporal Knowledge Graph
+        description: Per-user knowledge graph that captures entities, relationships, and time-aware facts.
+      - name: Memory and Sessions
+        description: Manage users and chat sessions, with messages persisted for retrieval and summarization.
+      - name: Automatic Fact Extraction
+        description: Extract structured facts from messages and invalidate facts that are superseded.
+      - name: Graph RAG
+        description: Retrieve graph-grounded context for prompts using semantic and graph traversal queries.
+      - name: Customizable Context Blocks
+        description: Compose reusable, customizable blocks of context to inject into agent prompts.
+      - name: Custom Entity Types
+        description: Define domain-specific entity types to capture vertical-specific knowledge.
+      - name: Multi-Source Ingestion
+        description: Ingest from chat, documents, and structured JSON to enrich the graph.
+      - name: Low-Latency Retrieval
+        description: Sub-200ms p95 retrieval latency for use in real-time agent loops.
+      - name: Enterprise Compliance
+        description: SOC 2 Type II and HIPAA-aligned controls for regulated workloads.
+    useCases:
+      - name: Personal AI Assistants
+        description: Maintain long-term user memory across conversations and devices.
+      - name: Customer Support Copilots
+        description: Provide agents with persistent customer history and account facts.
+      - name: Sales Agents
+        description: Track deal context, stakeholders, and prior interactions per account.
+      - name: Healthcare Workflows
+        description: Persist patient context with HIPAA-aligned controls and audit trails.
+      - name: Voice Agents
+        description: Inject low-latency context blocks into real-time voice agent prompts.
+    integrations:
+      - name: LangChain
+      - name: LangGraph
+      - name: LlamaIndex
+      - name: CrewAI
+      - name: AutoGen
+      - name: OpenAI
+      - name: Anthropic
+      - name: Vercel AI SDK
+      - name: Pipecat
+      - name: LiveKit
+    authentication:
+      - type: API Key
+        description: Zep Cloud uses an Api-Key header with project keys prefixed with z_; self-hosted uses Bearer tokens.
+common:
+  - type: Website
+    url: https://www.getzep.com
+  - type: Documentation
+    url: https://help.getzep.com
+  - type: Blog
+    url: https://blog.getzep.com
+  - type: GitHubOrganization
+    url: https://github.com/getzep
+  - type: Pricing
+    url: https://www.getzep.com/pricing
+  - type: TermsOfService
+    url: https://www.getzep.com/terms-of-service
+  - type: PrivacyPolicy
+    url: https://www.getzep.com/privacy-policy
+  - type: Discord
+    url: https://discord.com/invite/W8Kw6bsgXQ
+  - type: X
+    url: https://x.com/zep_ai
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/zep-ai
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
