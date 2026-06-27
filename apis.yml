@@ -55,13 +55,13 @@ apis:
         url: https://help.getzep.com
       - type: GettingStarted
         url: https://help.getzep.com/v2/quickstart
-      - type: SignUp
+      - type: Signup
         url: https://app.getzep.com
-      - type: SDK
+      - type: SDKs
         url: https://github.com/getzep/zep-python
-      - type: SDK
+      - type: SDKs
         url: https://github.com/getzep/zep-js
-      - type: SDK
+      - type: SDKs
         url: https://github.com/getzep/zep-go
       - type: GitHubRepository
         url: https://github.com/getzep/zep
