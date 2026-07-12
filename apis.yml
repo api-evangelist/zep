@@ -114,6 +114,10 @@ apis:
       - type: API Key
         description: Zep Cloud uses an Api-Key header with project keys prefixed with z_; self-hosted uses Bearer tokens.
 common:
+  - type: TrustCenter
+    url: security/zep-trust-center.yml
+  - type: DomainSecurity
+    url: security/zep-domain-security.yml
   - type: Website
     url: https://www.getzep.com
   - type: Documentation

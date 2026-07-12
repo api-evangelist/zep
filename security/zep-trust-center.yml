@@ -1,0 +1,14 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://www.getzep.com/enterprise/
+url: https://www.getzep.com/enterprise/
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://www.getzep.com/enterprise/
+  keywords:
+  - soc 2
+  - hipaa
+  - trust center
