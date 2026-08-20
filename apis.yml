@@ -58,6 +58,14 @@ apis:
       - Memory
       - Graph
       - Sessions
+      - User
+      - Facts
+      - Context
+      - REST
+    tags_raw:
+      - Memory
+      - Graph
+      - Sessions
       - Users
       - Facts
       - Context
