@@ -1,0 +1,29 @@
+# Front Door AI Index — zep — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: zep
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.getzep.com
+  final_host: www.getzep.com
+  ownership: own
+  owner: zep
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 17.34
+  words: 1211
+  tiers:
+    agentic: 6
+    core: 15
+    model: 0
+  ambiguous: 34
+  top_terms:
+    agent: 27
+    AI: 13
+    intelligence: 7
+    AI agent: 6
+    gen ai: 2
