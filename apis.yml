@@ -160,6 +160,12 @@ apis:
       - type: API Key
         description: Zep Cloud uses an Api-Key header with project keys prefixed with z_; self-hosted uses Bearer tokens.
 common:
+  - type: Plans
+    url: plans/zep-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/zep-rate-limits.yml
+  - type: FinOps
+    url: finops/zep-finops.yml
   - type: IssueTracker
     url: https://github.com/getzep/zep/issues
   - type: Releases
