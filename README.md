@@ -1,4 +1,4 @@
-# zep
+# Zep
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Zep — memory + temporal knowledge graph for AI agents
+Zep is a context engineering and agent memory platform that assembles relevant context from chat history, business data, and user interactions for AI agents. It builds a temporal knowledge graph per user that evolves as new facts arrive, automatically extracts entities, and invalidates facts that are superseded. Zep exposes a Graph RAG layer with customizable context blocks for fast personalization. The platform offers Cloud and self-hosted community editions with Python, TypeScript, and Go SDKs and integrations with LangChain, LangGraph, LlamaIndex, CrewAI, and AutoGen. Zep targets sub-200ms p95 retrieval latency and is SOC 2 Type II and HIPAA aligned for enterprise deployments.
+
+**Areas:** Memory · AI Agents · Knowledge Graph · Temporal Graph · Graph RAG · Context Engineering · LangChain · LlamaIndex · CrewAI · LLM · Personalization · Retrieval
+
+## Zep on APIs.io
+
+Everything profiled for Zep is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zep/](https://apis.io/providers/zep/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Zep Cloud API](https://apis.io/apis/zep/cloud-api/) — The Zep Cloud API delivers agent memory and temporal knowledge graph services over REST. It exposes endpoints for users, sessions, messages, memory…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [zep](https://apis.io/servers/zep/zep/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Zep Domain Security](https://apis.io/security/zep/zep-domain-security/)
+- [Zep Trust Center](https://apis.io/security/zep/zep-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Zep Plans Pricing](https://apis.io/plans/zep/zep-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Zep Rate Limits](https://apis.io/rate-limits/zep/zep-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Zep Finops](https://apis.io/finops/zep/zep-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.getzep.com)
+- [Documentation](https://help.getzep.com)
+- [Pricing](https://www.getzep.com/pricing)
+- [Blog](https://blog.getzep.com)
+- [Terms of service](https://www.getzep.com/terms-of-service)
+- [Privacy policy](https://www.getzep.com/privacy-policy)
+- [GitHub](https://github.com/getzep)
+
+## API Evangelist rating
+
+**Kin Score 37.1** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 68.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 36.8 |
+
+**Agent readiness 15.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 15.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zep/](https://apis.io/providers/zep/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Zep: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/zep/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
